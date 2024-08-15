@@ -1,5 +1,9 @@
 import { PropsWithChildren } from "react";
+import { createTamagui, TamaguiProvider } from "tamagui";
+import defaultConfig from "@tamagui/config/v3";
 
-export function Root({ children }: PropsWithChildren) {
-  return children;
+const config = createTamagui(defaultConfig);
+
+export function AppRoot({ children }: PropsWithChildren) {
+  return <TamaguiProvider config={config}>{children}</TamaguiProvider>;
 }

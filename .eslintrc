@@ -21,6 +21,7 @@
         "argsIgnorePattern": "^_"
       }
     ],
-    "react/function-component-definition": "warn"
+    "react/function-component-definition": "warn",
+    "react/self-closing-comp": "warn"
   }
 }

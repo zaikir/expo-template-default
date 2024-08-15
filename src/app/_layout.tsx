@@ -1,5 +1,10 @@
 import { Stack } from "expo-router";
+import { AppRoot } from "../root";
 
 export default function RootLayout() {
-  return <Stack />;
+  return (
+    <AppRoot>
+      <Stack />
+    </AppRoot>
+  );
 }
