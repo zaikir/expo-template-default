@@ -5,9 +5,10 @@
   ],
   "extends": [
     "expo",
-    "prettier",
+    "prettier"
   ],
   "rules": {
+    // "react/display-name": "off",
     "prefer-const": "error",
     "prettier/prettier": "error",
     "unused-imports/no-unused-imports": "error",
@@ -19,6 +20,7 @@
         "args": "after-used",
         "argsIgnorePattern": "^_"
       }
-    ]
+    ],
+    "react/function-component-definition": "warn"
   }
 }
