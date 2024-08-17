@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 import { createTamagui, TamaguiProvider } from "tamagui";
-import defaultConfig from "@tamagui/config/v3";
+import * as defaultConfig from "@tamagui/config/v3";
 
 const config = createTamagui(defaultConfig);
 
