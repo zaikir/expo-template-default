@@ -28,14 +28,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   android: {
     adaptiveIcon: {
-      foregroundImage: "./assets/adaptive-icon.png",
+      foregroundImage: "./assets/icon.png",
       backgroundColor: "#2E3C4B",
     },
     package: Env.APP_BUNDLE_ID,
-  },
-  web: {
-    favicon: "./assets/favicon.png",
-    bundler: "metro",
   },
   plugins: [
     [
