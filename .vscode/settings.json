@@ -1,0 +1,11 @@
+{
+  "typescript.preferences.autoImportFileExcludePatterns": ["./env.ts"],
+  "files.exclude": {
+    "expo-env.d.ts": true,
+    ".npmrc": true,
+    ".npmignore": false,
+    ".gitignore": true,
+    "babel.config.js": true,
+    "load-env.ts": true
+  }
+}
