@@ -3,7 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@env": ["./load-env.ts"]
+      "@env": ["./env.config.ts"]
     }
   },
   "include": [

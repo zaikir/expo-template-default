@@ -5,7 +5,7 @@
     ".npmrc": true,
     ".npmignore": false,
     ".gitignore": true,
-    "babel.config.js": true,
-    "load-env.ts": true
+    "babel.config.js": false,
+    "env.config.ts": false
   }
 }

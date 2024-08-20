@@ -1,0 +1,8 @@
+{
+  "extra": {
+    "APP_NAME": "Test",
+    "APP_BUNDLE_ID": "appstrain.pl.cleaner-4",
+    "APP_VERSION": "1.0",
+    "NODE_ENV": "development"
+  }
+}

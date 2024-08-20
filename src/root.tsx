@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
 
-export function AppRoot({ children }: PropsWithChildren) {
+export function AppWrapper({ children }: PropsWithChildren) {
   return children;
 }

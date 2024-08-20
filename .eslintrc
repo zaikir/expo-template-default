@@ -22,12 +22,6 @@
       }
     ],
     "react/function-component-definition": "warn",
-    "react/self-closing-comp": "warn",
-    "no-restricted-imports": [
-      "error",
-      {
-        "paths": ["./env", "@/env"]
-      }
-    ]
+    "react/self-closing-comp": "warn"
   }
 }
