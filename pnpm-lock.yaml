@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@kirz/expo-env':
+        specifier: ^1.2.3
+        version: 1.2.3(zod@3.23.8)
       '@react-navigation/native':
         specifier: ^6.1.17
         version: 6.1.18(react-native@0.74.3(@babel/core@7.25.2)(@babel/preset-env@7.25.3(@babel/core@7.25.2))(@types/react@18.2.79)(react@18.2.0))(react@18.2.0)
@@ -1258,6 +1261,12 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
+
+  '@kirz/expo-env@1.2.3':
+    resolution: {integrity: sha512-MgDCibjiHI5MDU8Ypl9NHfuyV5iy5kMSf8W2OYBs/ZjNhC3cBMBRpGUkhMCzJHbKUg5lHwaTheFyhO4YgQwp0g==}
+    hasBin: true
+    peerDependencies:
+      zod: ^3.0.0
 
   '@motionone/animation@10.18.0':
     resolution: {integrity: sha512-9z2p5GFGCm0gBsZbi8rVMOAJCtw1WqBTIPw3ozk06gDvZInBPIsQcHgYogEJ4yuHJ+akuW8g1SEIOpTOvYs8hw==}
@@ -7043,6 +7052,11 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@kirz/expo-env@1.2.3(zod@3.23.8)':
+    dependencies:
+      yaml: 2.5.0
+      zod: 3.23.8
 
   '@motionone/animation@10.18.0':
     dependencies:

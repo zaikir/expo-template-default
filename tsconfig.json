@@ -2,15 +2,13 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-    "paths": {
-      "@env": ["./env.config.ts"]
-    }
   },
   "include": [
     "*.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "env.*.yml",
   ]
 }

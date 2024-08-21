@@ -1,7 +1,5 @@
-import { Env } from "@env";
+import { Env } from "@kirz/expo-env";
 import { Text, View } from "react-native";
-
-console.log(Env.APP_NAME);
 
 export default function Index() {
   return (

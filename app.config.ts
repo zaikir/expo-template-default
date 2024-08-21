@@ -1,9 +1,7 @@
-import { type EnvType } from "@env";
+import { Env } from "@kirz/expo-env";
 import { ConfigContext, ExpoConfig } from "@expo/config";
 
 export default ({ config }: ConfigContext): ExpoConfig => {
-  const Env = config.extra as EnvType;
-
   return {
     ...config,
     name: Env.APP_NAME,

@@ -4,7 +4,7 @@
   "main": "expo-router/entry",
   "version": "51.0.31",
   "scripts": {
-    "prestart": "bun load-env.ts",
+    "prestart": "load-env",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
@@ -14,6 +14,7 @@
     "doctor": "npx expo-doctor@latest"
   },
   "dependencies": {
+    "@kirz/expo-env": "^1.2.3",
     "@react-navigation/native": "^6.1.17",
     "app-icon-badge": "^0.0.15",
     "expo": "~51.0.19",
