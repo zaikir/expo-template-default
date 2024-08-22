@@ -10,7 +10,7 @@
     "web": "load-env && expo start --web",
     "lint": "expo lint",
     "doctor": "pnpx expo-doctor@latest",
-    "prebuild": "expo prebuild"
+    "prebuild": "load-env && expo prebuild"
   },
   "dependencies": {
     "@kirz/expo-env": "1.3.0",
