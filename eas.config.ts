@@ -3,7 +3,7 @@ import { EasConfig } from "./eas-config";
 export default (): EasConfig => ({
   build: {
     base: {
-      pnpm: "8.15.4",
+      pnpm: "9.7.0",
       prebuildCommand: "prebuild --skip-dependency-update react",
     },
 
