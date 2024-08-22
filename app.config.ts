@@ -9,10 +9,10 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     slug: Env.APP_BUNDLE_ID.toLowerCase().replaceAll(".", "-"),
     version: Env.APP_VERSION.toString(),
     orientation: "portrait",
-    icon: "./assets/icon.png",
+    icon: "./assets/images/icon.png",
     userInterfaceStyle: "automatic",
     splash: {
-      image: "./assets/splash.png",
+      image: "./assets/images/splash.png",
       resizeMode: "cover",
       backgroundColor: "#2E3C4B",
     },
@@ -29,7 +29,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     android: {
       adaptiveIcon: {
-        foregroundImage: "./assets/icon.png",
+        foregroundImage: "./assets/images/icon.png",
         backgroundColor: "#2E3C4B",
       },
       package: Env.APP_BUNDLE_ID,
@@ -64,8 +64,5 @@ export default ({ config }: ConfigContext): ExpoConfig => {
         },
       ],
     ],
-    extra: {
-      ...Env,
-    },
   };
 };
