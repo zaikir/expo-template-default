@@ -32,7 +32,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
         foregroundImage: "./assets/images/icon.png",
         backgroundColor: "#2E3C4B",
       },
-      package: Env.APP_BUNDLE_ID,
+      package: Env.APP_BUNDLE_ID.replaceAll("-", "_"),
     },
     plugins: [
       [
