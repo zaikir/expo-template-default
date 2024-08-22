@@ -11,7 +11,7 @@ export default function Index() {
       }}
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
-      <Text>{Env.NODE_ENV}</Text>
+      <Text>{Env.APP_VERSION}</Text>
     </View>
   );
 }
