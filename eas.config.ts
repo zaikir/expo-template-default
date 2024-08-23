@@ -1,7 +1,4 @@
-import { Env } from "@kirz/expo-env";
-import { EasConfig } from "./eas-config";
-
-console.log(Env);
+import { Env, EasConfig } from "@kirz/expo-env";
 
 export default (): EasConfig => ({
   build: {
