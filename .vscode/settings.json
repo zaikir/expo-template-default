@@ -3,7 +3,7 @@
     "expo-env.d.ts": true,
     ".npmrc": true,
     ".npmignore": true,
-    ".gitignore": false,
     "babel.config.js": true,
+    "eas.json": true
   }
 }

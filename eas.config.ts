@@ -1,10 +1,10 @@
-import { Env, EasConfig } from "@kirz/expo-env";
+import { EasConfig } from "@kirz/expo-env";
 
 export default (): EasConfig => ({
   build: {
     base: {
       pnpm: "9.7.0",
-      prebuildCommand: `prebuild --skip-dependency-update react ${Env.APP_NAME}`,
+      prebuildCommand: `prebuild --skip-dependency-update react`,
     },
 
     simulator: {
