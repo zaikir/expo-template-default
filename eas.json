@@ -2,7 +2,7 @@
   "build": {
     "base": {
       "pnpm": "9.7.0",
-      "prebuildCommand": "prebuild --skip-dependency-update react AS222ff"
+      "prebuildCommand": "prebuild --skip-dependency-update react"
     },
     "simulator": {
       "extends": "base",

@@ -4,6 +4,16 @@
     ".npmrc": true,
     ".npmignore": true,
     "babel.config.js": true,
-    "eas.json": true
+    "eas.json": true,
+    ".gitignore": true,
+    ".eslintrc": true,
+    "README.md": true,
+    "pnpm-lock.yaml": true,
+    "tsconfig.json": true,
+    "node_modules": false,
+    ".expo": true,
+    "nativewind-env.d.ts":true,
+    "prettier.config.js": true,
+    "metro.config.js": true
   }
 }

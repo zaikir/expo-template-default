@@ -5,7 +5,8 @@
   ],
   "extends": [
     "expo",
-    "prettier"
+    "prettier",
+    "plugin:tailwindcss/recommended"
   ],
   "rules": {
     // "react/display-name": "off",
