@@ -1,5 +1,6 @@
-import { Stack } from "expo-router";
-import { AppWrapper } from "../root";
+import { Stack } from 'expo-router';
+
+import { AppWrapper } from '../root';
 
 export default function RootLayout() {
   return (

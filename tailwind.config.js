@@ -6,6 +6,7 @@ module.exports = {
   presets: [require('nativewind/preset')],
   darkMode: 'class',
   theme: {
+    spacing: { 1: 'var(--spacing-1)' },
     fontFamily: {
       inter: ['Inter'],
     },

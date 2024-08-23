@@ -9,9 +9,11 @@ export default function Index() {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <Text className="w-8 font-inter color-primary-300">
-        Edit app/index.tsx to edit this screen.
-      </Text>
+      <View className="mb-1 bg-red-500">
+        <Text className="color-red-200">
+          Edit app/index.tsx to edit this screen.
+        </Text>
+      </View>
       <Text>{Env.APP_VERSION}</Text>
     </View>
   );

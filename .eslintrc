@@ -1,7 +1,8 @@
 {
   "plugins": [
     "prettier",
-    "unused-imports"
+    "unused-imports",
+    "simple-import-sort"
   ],
   "extends": [
     "expo",
@@ -9,7 +10,6 @@
     "plugin:tailwindcss/recommended"
   ],
   "rules": {
-    // "react/display-name": "off",
     "prefer-const": "error",
     "prettier/prettier": "error",
     "unused-imports/no-unused-imports": "error",
@@ -23,6 +23,16 @@
       }
     ],
     "react/function-component-definition": "warn",
-    "react/self-closing-comp": "warn"
+    "react/self-closing-comp": "warn",
+    "import/prefer-default-export": "off",
+    "tailwindcss/classnames-order": [
+      "warn",
+      {
+        "officialSorting": true
+      }
+    ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "tailwindcss/no-custom-classname": "off"
   }
 }
