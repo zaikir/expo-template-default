@@ -38,8 +38,6 @@ const withSpacing = (spacing: (number | string)[]) => {
   };
 };
 
-console.log(withSpacing(theme.spacing));
-
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   presets: [require('nativewind/preset')],
