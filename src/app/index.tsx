@@ -9,10 +9,9 @@ export default function Index() {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <View className="mb-1 bg-red-500">
-        <Text className="color-red-200">
-          Edit app/index.tsx to edit this screen.
-        </Text>
+      <View className="mb-32">
+        {/* height-full max-h-auto mx-12 mt-2 size-2 max-w-xl basis-1 gap-1 hover:gap-y-20 */}
+        <Text>Edit app/index.tsx to edit this screen.</Text>
       </View>
       <Text>{Env.APP_VERSION}</Text>
     </View>

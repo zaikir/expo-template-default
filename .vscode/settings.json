@@ -5,7 +5,7 @@
     ".npmignore": true,
     "babel.config.js": false,
     "eas.json": true,
-    ".gitignore": true,
+    ".gitignore": false,
     ".eslintrc": false,
     "README.md": true,
     "pnpm-lock.yaml": true,
@@ -13,8 +13,8 @@
     "node_modules": false,
     ".expo": false,
     "nativewind-env.d.ts":true,
-    "prettier.config.js": true,
-    "metro.config.js": true,
+    "prettier.config.js": false,
+    "metro.config.js": false,
     "global.css": true
   }
 }

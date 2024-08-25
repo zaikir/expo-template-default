@@ -1,5 +1,5 @@
-import { Env } from '@kirz/expo-env';
 import { ConfigContext, ExpoConfig } from '@expo/config';
+import { Env } from '@kirz/expo-env';
 
 export default ({ config }: ConfigContext): ExpoConfig => {
   return {
@@ -11,6 +11,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     orientation: 'portrait',
     icon: './assets/images/icon.png',
     userInterfaceStyle: 'automatic',
+    scheme: Env.APP_BUNDLE_ID.toLowerCase().replaceAll('.', '-'),
     splash: {
       image: './assets/images/splash.png',
       resizeMode: 'cover',

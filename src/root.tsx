@@ -1,19 +1,14 @@
 import '../global.css';
 
-import { vars } from 'nativewind';
 import { PropsWithChildren } from 'react';
-import { View } from 'react-native';
+
+import { NativewindWrapper } from './core/nativewind-wrapper';
+import { theme } from './theme/theme';
 
 export function AppWrapper({ children }: PropsWithChildren) {
   return (
-    <View className="flex-1" style={vars({ '--spacing-1': `${30}px` })}>
+    <NativewindWrapper spacing={theme.spacing} edges={[]}>
       {children}
-    </View>
+    </NativewindWrapper>
   );
 }
-
-/*
-@kirz/nativewind-scale
-NativeWind: 
-1.
-*/
