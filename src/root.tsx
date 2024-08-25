@@ -1,14 +1,10 @@
 import '../global.css';
 
+import { NativewindWrapper } from '@kirz/nativewind-scale';
 import { PropsWithChildren } from 'react';
 
-import { NativewindWrapper } from './core/nativewind-wrapper';
-import { theme } from './theme/theme';
+import config from '../tailwind.config';
 
 export function AppWrapper({ children }: PropsWithChildren) {
-  return (
-    <NativewindWrapper spacing={theme.spacing} edges={[]}>
-      {children}
-    </NativewindWrapper>
-  );
+  return <NativewindWrapper config={config}>{children}</NativewindWrapper>;
 }
