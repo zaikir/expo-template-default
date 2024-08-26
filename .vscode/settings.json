@@ -1,20 +1,20 @@
 {
   "files.exclude": {
-    "expo-env.d.ts": true,
-    ".npmrc": true,
-    ".npmignore": true,
-    "babel.config.js": true,
-    "eas.json": true,
-    ".gitignore": true,
+    "expo-env.d.ts": false,
+    ".npmrc": false,
+    ".npmignore": false,
+    "babel.config.js": false,
+    "eas.json": false,
+    ".gitignore": false,
     ".eslintrc": false,
-    "README.md": true,
+    "README.md": false,
     "pnpm-lock.yaml": false,
-    "tsconfig.json": true,
+    "tsconfig.json": false,
     "node_modules": false,
-    ".expo": true,
-    "nativewind-env.d.ts":true,
-    "prettier.config.js": true,
-    "metro.config.js": true,
-    "global.css": true
+    ".expo": false,
+    "nativewind-env.d.ts":false,
+    "prettier.config.js": false,
+    "metro.config.js": false,
+    "global.css": false
   }
 }
