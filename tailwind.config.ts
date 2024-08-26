@@ -1,4 +1,4 @@
-import { scaleVar } from '@kirz/nativewind-scale';
+import { scaleVar } from '@kirz/nativewind-scale/vars';
 import type { Config } from 'tailwindcss';
 
 import { colors } from './src/theme/colors';
