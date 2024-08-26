@@ -1,8 +1,13 @@
 {
-  "name": "expo-template-default",
-  "license": "MIT",
+  "name": "@kirz/expo-template-default",
+  "version": "1.0.0",
   "main": "expo-router/entry",
-  "version": "51.0.31",
+  "author": "Kirill Zaidulin <zaidulinkirill@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaikir/nativewind-scale"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -15,7 +20,7 @@
   },
   "dependencies": {
     "@kirz/expo-env": "1.3.4",
-    "@kirz/nativewind-scale": "1.1.0",
+    "@kirz/nativewind-scale": "1.0.4",
     "@react-navigation/native": "^6.1.17",
     "app-icon-badge": "^0.0.15",
     "expo": "~51.0.19",
